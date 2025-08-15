@@ -1,0 +1,5 @@
+streamlit>=1.48.0
+chromadb>=1.0.0
+openai>=1.99.0
+requests>=2.32.0
+sentence-transformers>=5.1.0 
