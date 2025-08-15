@@ -1,0 +1,105 @@
+{
+  "language": "en",
+  "downloadsFolder": "/Users/satonodoka/.lmstudio/models",
+  "sidebar": {
+    "showButtonNames": false
+  },
+  "configs": {
+    "expandConfigsOnClick": true
+  },
+  "chat": {
+    "showSuggestionsOnNewChat": true,
+    "alwaysShowPromptTemplate": false,
+    "useShiftEnterToSendMessage": false,
+    "useKeychordToRegenerate": true,
+    "unloadPreviousModelOnSelect": true,
+    "highlightChatMessageOnHover": true,
+    "doubleClickMessageToEdit": true,
+    "aiNamingMode": "auto",
+    "autoExpandReasoningBlocks": false,
+    "reasoningBlocksVignette": true,
+    "messageGenInfoMode": "lastMessage",
+    "visualizeSpeculativeDecoding": false,
+    "chatFullWidth": false,
+    "neverAskForToolConfirmation": false,
+    "skipToolConfirmationPatterns": [],
+    "showChatUtilityMenuLabels": true,
+    "pinnedPlugins": [],
+    "showRoleAndInsertButtons": false,
+    "scrollLastMessageToTop": "scrollToTopNoLatch",
+    "showTokenCountInChatListings": false
+  },
+  "developer": {
+    "showExperimentalFeatures": true,
+    "experimentalLoadPresets": true,
+    "showDebugInfoBlocksInChat": true,
+    "showModelDownloadOptionData": true,
+    "backendDownloadChannel": "stable",
+    "appUpdateChannel": "stable",
+    "allowDevelopmentPlugins": true,
+    "unloadPreviousJITModelOnLoad": true,
+    "jitModelTTL": {
+      "enabled": true,
+      "ttlSeconds": 3600
+    },
+    "autoUpdateExtensionPacks": true,
+    "autoDeleteExtensionPacks": true,
+    "separateReasoningContent": true,
+    "experimentFlags": ["enableLocalServer", "autoStartLocalServer", "forceLocalServerStart", "enableAPI"]
+  },
+  "ui": {
+    "missionControlFullscreen": false,
+    "showModelFileNameInMyModels": true,
+    "configureLoadParamsBeforeLoad": true
+  },
+  "configPresetInclusiveness": {
+    "speculativeDecoding": false
+  },
+  "toggledConfigDropdowns": [],
+  "userInterfaceComplexityLevel": 3,
+  "appFirstLoad": false,
+  "autoLoadBundledLLM": true,
+  "modelLoadingGuardrails": {
+    "mode": "off",
+    "customThresholdBytes": 4294967296
+  },
+  "dismissedModals": [
+    "New Model Announcement"
+  ],
+  "dismissedConversationSnackbars": [],
+  "pre030ChatsMigrated": 3,
+  "appPostUpdateNotificationPending": false,
+  "promptWhenCommittingUnsavedChangesWithNewFields": false,
+  "enableLocalService": true,
+  "cliInstalled": false,
+  "useHFProxy": true,
+  "hfSearchToken": "",
+  "hfDownloadToken": "",
+  "localServer": {
+    "enabled": true,
+    "port": 1234,
+    "apiKey": "sk-1234567890abcdef",
+    "autoStart": true,
+    "startOnLaunch": true,
+    "bindToAllInterfaces": false,
+    "forceStart": true,
+    "enabled": true
+  },
+  "server": {
+    "autoStart": true,
+    "port": 1234,
+    "host": "localhost",
+    "enabled": true
+  },
+  "api": {
+    "enabled": true,
+    "port": 1234,
+    "autoStart": true,
+    "startOnLaunch": true
+  },
+  "localAPI": {
+    "enabled": true,
+    "port": 1234,
+    "autoStart": true
+  }
+} 
